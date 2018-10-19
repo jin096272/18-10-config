@@ -5,11 +5,11 @@
 
 ---
 server:
-    port: 8001
+    port: 1112
 spring:
     profiles: dev
     application:
-         name: eureka-client
+         name: config-client
 eureka:
     client:
         serviceUrl:
