@@ -4,10 +4,16 @@
        -dev
 
 ---
+server:
+    port: 8001
 spring:
     profiles: dev
     application:
-         name: config-dev
+         name: eureka-client
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:6666/eureka/
 
 
 ---
